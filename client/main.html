@@ -1,0 +1,18 @@
+<head>
+  <title>hello</title>
+</head>
+
+<body>
+  <h1>Тестовое приложение</h1>
+
+  <p>{{> loginButtons}}</p>
+{{#if currentUser}}
+  {{>addPlayerForm}}
+  {{>leaderbord}}
+{{else}}
+    <p>Войдите что бы увидеть содержимое</p>
+{{/if}}
+
+</body>
+
+
